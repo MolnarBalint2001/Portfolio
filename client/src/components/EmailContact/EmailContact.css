@@ -1,0 +1,36 @@
+
+
+input, textarea{
+    padding: 8px;
+    transition: 0.5s ease-in-out;
+    outline: white;
+    border: 2px solid #e2e8f0;
+}
+
+textarea{
+    resize: none;
+}
+
+
+
+textarea:focus, input:focus{
+    outline: 1px solid #2563eb;
+
+}
+
+
+
+textarea:focus::placeholder, input:focus::placeholder{
+    opacity: 0;
+}
+
+
+.email-contact{
+    background-color: white;
+}
+
+.email-contact, .email-contact-header{
+    transition: 0.5s ease-in-out;
+}
+
+

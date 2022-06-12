@@ -1,0 +1,26 @@
+.about.night{
+    background-color: #1f2937;
+}
+
+
+.about.night .intro-desc{
+    color: white;
+    background-color: #263552;
+} 
+
+.about.night .intro-content{
+    background-color: #263552;
+}
+
+
+
+.about.night .intro-header{
+    border-bottom-left-radius: 0.125rem;
+    border-bottom-right-radius: 0.125rem;
+    background-image: url("../../images/intro-header.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #c5cddd;
+    background-blend-mode: multiply;
+}

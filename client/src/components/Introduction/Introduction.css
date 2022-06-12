@@ -1,0 +1,23 @@
+
+
+
+
+.intro-header{
+    border-bottom-left-radius: 0.125rem;
+    border-bottom-right-radius: 0.125rem;
+    background-image: url("../../images/intro-header.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #9ca3af;
+    background-blend-mode: multiply;
+}
+
+
+.about{
+    transition: 0.5s ease-in-out;
+}
+
+.about ,.intro-desc, .intro-content ,.intro-header{
+    transition: 0.5s ease-in-out;
+}

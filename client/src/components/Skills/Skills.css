@@ -1,0 +1,15 @@
+
+
+
+.skills, .skills-header, .skills-content{
+    transition: 0.5s ease-in-out;
+}
+
+.skills-header{
+    background-image: url("../../images/skills-header.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #9ca3af;
+    background-blend-mode: multiply;
+}

@@ -1,0 +1,67 @@
+
+
+.nav-link{
+    transition: 0.2s ease-in-out;
+}
+
+.checkbox{
+  position: absolute;
+  display: none;
+}
+
+.ball{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translateX(32px) !important;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0), 
+    inset 1px 1px 2px #343b46d7;
+    transition: 0.2s ease-in all;
+
+}
+
+
+.ball.night{
+    transform: translateX(-16px) !important;
+}
+
+
+.light-dark-controller{
+   cursor: pointer;
+   box-shadow: 2px 2px 5px rgb(0, 0, 0), 
+   inset 1px 1px 2px #3a4a60d7;
+
+}
+
+
+
+.sun.active{
+    filter: drop-shadow(0 0 5px rgb(255, 255, 0)) brightness(200%);
+}
+
+
+.moon.active{
+    filter: drop-shadow(0 0 5px #64748b) brightness(200%) !important;
+}
+
+.navbar{
+    transition: 0.2s ease-in all;
+    z-index: 100;
+}
+
+.navbar.active{
+    backdrop-filter: blur(20px);
+    box-shadow: 1px 1px 2px black;
+}
+
+
+.navbar.light-navbar{
+    background-color: red;
+}
+
+
+
+
